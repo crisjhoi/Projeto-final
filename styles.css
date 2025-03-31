@@ -1,0 +1,20 @@
+.carrossel1 {
+    box-shadow: 2px 2px 2px black;
+    overflow: hidden;
+    height: 300px;
+    width: 100vw; /* Ocupa toda a largura da tela */
+}
+
+.container1 {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+    width: 100%; /* Garante que as imagens fiquem alinhadas corretamente */
+}
+
+.containerImg1 {
+    object-fit: cover;
+    height: 300px;
+    width: 100vw; /* Faz com que cada imagem ocupe toda a largura da tela */
+    flex-shrink: 0; /* Impede que as imagens encolham */
+}
